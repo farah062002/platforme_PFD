@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body{
+    font-family: arial,sans-serif;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    background: url(/images/univ_background.jpg) no-repeat center/cover;
+   
+}
+  header {
+    background-color: #6A9C89;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    margin-top: 20px;
+   
+  }
+  
+  .upload-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 50px 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .upload-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .upload-container input[type="file"] {
+    margin: 10px 0;
+    padding: 8px;
+    background-color:white;
+  }
+  
+ /* .upload-container button {
+    margin-top: 10px;
+    background-color:#c4f43d;
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #ddd;
+  }*/
+  button {
+    background-color: #c4f43d;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 999px; 
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+  }
+  button:hover {
+    background-color: #ddd;
+  }
+ 
+  .button-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+  footer {
+    background-color: #6A9C89;
+    color: white;
+    padding: 20px; 
+    font-size: 14px; 
+    
+
+  }
+  footer h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  footer input[type="email"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+  }
+  .footer-links {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 1000px;
+    
+  }
+
+  .aide-list, .plus-list{
+    margin-right: 20px; 
+    margin-bottom: 0;
+    
+  }
+
+  .footer-links ul {
+    list-style: none;
+  }
+  .footer-links li {
+  margin-bottom: 5px;
+}
